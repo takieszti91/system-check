@@ -13,5 +13,9 @@ You can find the system check script in ```/vagrant/``` directory on the VM.
 
 You can modify ```Vagrantfile``` to try system check with other distributions/versions/RAM size/CPU number.
 
+You can destroy the VM if not needed anymore with ```vagrant destroy```.
+
+If you use Windows as host machine and have timeout after ```vagrant up``` (while ```default: SSH auth method: private key```), try open VirtualBox GUI, leave it in the background and run ```vagrant up``` again.
+
 More information about Vagrant:<br />
 [Documentation | Vagrant | HashiCorp Developer](https://developer.hashicorp.com/vagrant/docs)
